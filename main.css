@@ -1,0 +1,150 @@
+/* poppins-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    src: url("./fonts/poppins-v20-latin-500.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url("./fonts/poppins-v20-latin-500.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    src: url("./fonts/poppins-v20-latin-600.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url("./fonts/poppins-v20-latin-600.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-700 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    src: url("./fonts/poppins-v20-latin-700.woff2") format("woff2"), /* Chrome 36+, Opera 23+, Firefox 39+ */
+    url("./fonts/poppins-v20-latin-700.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", "Arial" , sans-serif;
+    box-sizing: border-box;
+    background-image: url(./images/bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+    padding: 165px 0;
+    
+}
+
+.hero {
+    width: 525px;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: -0.520833px;
+    color: #FFF;
+}
+
+.hero-desc {
+    padding-top: 11px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFF;
+}
+
+.btn-secondary {
+    background: #5E54A4;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    border-radius: 10px;
+    padding: 17px 111px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.267857px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+input::placeholder {
+    /* padding-left: 32px; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+    color: #3D3B48;
+}
+
+.btn-primary {
+    background: #38CC8B;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+    border-radius: 5px;
+    border: none;
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.terms {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 26px;
+    color: #BAB7D4;
+    text-align: center;
+}
+
+.privacy {
+    text-decoration: none;
+    color: #FF7979;
+}
+
+.signup-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.14688);
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+input {
+    width: 460px;
+    height: 56px;
+    padding-left: 32px;
+    
+}
+
+input:focus {
+
+}
+
+
+
